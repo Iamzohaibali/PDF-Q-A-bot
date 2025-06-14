@@ -39,7 +39,7 @@ def ask_gemini(context, question):
 
 # UI
 st.set_page_config(page_title="PDF Q&A  By Zohaib", layout="centered")
-st.title("📄 Gemini PDF Q&A Bot")
+st.title("📄 PDF Q&A Bot By Zohaib")
 
 pdf = st.file_uploader("Upload a PDF file", type=["pdf"])
 
